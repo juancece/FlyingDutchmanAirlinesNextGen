@@ -5,10 +5,10 @@ using Microsoft.Extensions.Hosting;
 namespace FlyingDutchmanAirlines {
   class Program {
     static void Main(string[] args) {
-      InitalizeHost();
+      InitializeHost();
     }
 
-    private static void InitalizeHost() =>
+    private static void InitializeHost() =>
       Host.CreateDefaultBuilder()
         .ConfigureWebHostDefaults(builder =>
       {
